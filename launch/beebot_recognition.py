@@ -14,7 +14,7 @@ def generate_launch_description():
         
     node=Node(
         package = 'beebot_recognition',
-        name = 'your_amazing_node',
+        name = 'corrosion_recognition_node',
         executable = 'corrosion_recognition',
         parameters = [config]
     )
