@@ -6,5 +6,5 @@ corrosion_recognition_node:
       debug_image: 'debug_image'
       recognition_topic: 'corrosion_recognition'
     network: 
-      model: 'yolov8' #yolov8 OR unet2 
+      model: 'yolov8' #yolov8 OR unet2 OR deeplab
       weight_path: 'yolov8n.pt' #with the weight name also ex: ../weights/****.pt
